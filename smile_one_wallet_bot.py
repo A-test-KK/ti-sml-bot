@@ -15,8 +15,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- Configuration --- #
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID")) # Ensure this is an integer
+TOKEN = os.getenv("8595929295:AAFFm4tfgoB8HVzbo3SINSP2R756zvHwQLg")
+ADMIN_CHAT_ID = int(os.getenv("1622282082")) # Ensure this is an integer
 
 USERS_FILE = "users.json"
 INVENTORY_FILE = "inventory.json"
